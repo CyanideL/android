@@ -32,7 +32,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" groups="pdk" />
+  <project path="art" name="android_art" groups="pdk" remote="origin" revision="M" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="origin" revision="M" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
@@ -340,6 +340,7 @@
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="origin" revision="M-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="origin" revision="M-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="origin" revision="M-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="origin" revision="M-caf-8994" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="origin" revision="M" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="origin" revision="M-caf" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="origin" revision="M" />
@@ -369,6 +370,7 @@
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="origin" revision="M" />
+  <project path="hardware/ril-caf" name="android_hardware_ril-caf" groups="pdk" remote="origin" revision="M-caf" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
