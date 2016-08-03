@@ -31,8 +31,8 @@
   <remote  name="bb"
            fetch="https://bitbucket.org" />
 
-  <project path="android" name="cyanide_manifest" groups="pdk" remote="p" revision="M" />
-  <project path="build" name="android_build" groups="pdk" remote="p" revision="M" >
+  <project path="android" name="pimpmaneaton/cyanide_manifest" groups="pdk" remote="github" revision="M" />
+  <project path="build" name="pimpmaneaton/android_build" groups="pdk" remote="github" revision="M" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -242,7 +242,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="p" revision="M" />
+  <project path="external/sepolicy" name="pimpmaneaton/android_external_sepolicy" groups="pdk" remote="github" revision="M" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
@@ -279,7 +279,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin" revision="M" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="p" revision="M" />
+  <project path="frameworks/base" name="pimpmaneaton/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="M" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -288,7 +288,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="p" revision="M" />
+  <project path="frameworks/native" name="pimpmaneaton/android_frameworks_native" groups="pdk" remote="github" revision="M" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="origin" revision="M" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -520,7 +520,7 @@
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="origin" revision="M" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="origin" revision="M" />
   <!-- copy build script -->
-  <project path="vendor/cyanide" name="android_vendor_cyanide" remote="p" revision="M" >
+  <project path="vendor/cyanide" name="pimpmaneaton/android_vendor_cyanide" remote="github" revision="M" >
       <copyfile src="tools/build-cyanide.sh" dest="build-cyanide.sh" />
   </project>
 
