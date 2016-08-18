@@ -9,7 +9,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 Then to initialize your local repository using Cyanide source, use this command:
 
-    repo init -u git://github.com/CyanideL/cyanide_manifest.git -b M
+    repo init -u git://github.com/pimpmaneaton/cyanide_manifest.git -b M
 
 Then to sync up:
 
