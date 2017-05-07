@@ -12,9 +12,6 @@
   <!-- Cyanide -->
   <remote  name="origin"
            fetch="https://github.com/CyanideL" />
-  <default revision="N-1"
-           remote="origin"
-           sync-j="4" />
            
   <!-- Private Repos -->
   <remote  name="private"
